@@ -16,7 +16,8 @@ We used **Gobuster**, a command-line tool for brute‑forcing directories and fi
 
 ### Command used:
 
-```gobuster -u http://fakebank.thm -w wordlist.txt dir
+```
+gobuster -u http://fakebank.thm -w wordlist.txt dir
 ```
 
 ### Flags explained:
