@@ -1,13 +1,13 @@
 # Offensive Security — Lesson 1 Notes
 
-Understanding how attackers think is essential for defending systems. Ethical hackers study the same techniques used by malicious actors, but apply them legally and responsibly to strengthen security.
+Understanding how attackers think is essential for defending systems. Ethical hackers study the same techniques used by hackers, but apply them legally and responsibly to strengthen security.
 
 ---
 
 ## Overview of the Exercise
-The lesson introduced a simulated hacking scenario using a virtual machine running a fake banking application called **FakeBank**. This environment allows safe, legal practice of offensive security techniques.
+Simulated hacking scenario using a virtual machine, that runs a fake banking application called **FakeBank**. 
 
-The objective was to discover hidden directories on the website and understand how an ethical hacker approaches reconnaissance.
+The objective was to discover hidden directories on the website.
 
 ---
 
@@ -31,16 +31,12 @@ Gobuster reports directories that return a **Status: 200**, meaning the page exi
 http://fakebank.thm/bank-transfer
 ```
 
-This demonstrates how attackers find hidden or unlinked pages that developers may overlook.
-
 ---
 
 ## Key Concepts Learned
-- Offensive security involves identifying vulnerabilities before attackers do.
-- Ethical hackers use controlled environments to practice safely.
+- Offensive security involves identifying vulnerabilities before attackers do, helping defenders anticipate threats.
 - Reconnaissance is often the first step in a penetration test.
 - Tools like Gobuster automate the discovery of hidden resources.
-- Thinking like an attacker helps defenders anticipate threats.
 
 ---
 
